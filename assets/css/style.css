@@ -1,0 +1,118 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+*{
+	background-color:  #F78E69;
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px; 
+}
+/*titulo de encabezado*/
+h3{
+	margin-top: 60px;
+	font-size: 50px;
+	text-align: right;
+	color: white; 
+	padding:10px 80px;	
+}
+/*pie de titulo*/
+#two{
+	font-size: 20px;
+	text-align: right;
+	color: white; 
+	padding:10px 80px;
+	margin-bottom: 30px;
+}
+/*parrafos generales*/
+p{
+	font-size: 20px;
+	color: white; 
+	padding:10px 80px;
+	margin-bottom: 30px;	
+}
+/*color de fondo de la portada*/
+.color{
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 10px 0;
+
+}
+
+.firstImage{
+	/*margin: 20px;*/
+	margin-left: 80px;
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 30px 0;
+}
+/*contenido de parrafo y su color respectivo*/
+.parrafo{
+	background-color: #ABE188;
+	padding: 70px 0;
+	color: white;
+}
+/*fondo del parrafo y texto*/
+.contenido{
+      background-color: #F78E69;
+      text-align: center;
+      padding:30px;
+      margin-right: 250px;
+      margin-left: 250px;
+}
+/*segunda imagen*/
+.secondImage{
+	margin-left: 80px;
+		width: 100%;
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 30px 0;
+}
+.fotitos{
+	font-size: 30px;
+	color: white; 
+	text-align: center;
+}
+
+
+
+/* sección */
+.lista-images{
+	display: inline-block;
+	overflow: auto;
+}
+.imagenes span {
+	display: inline-block;
+	font-size: 20px;
+    /*modelo de caja*/
+    width: 30px;
+    height: 10px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.imagen{ 
+	display: inline;
+	background-color: #DC5322;
+	padding: 10px;
+	margin: 20px;
+}
+
+/*tercera imagen*/
+.thirdImage{
+	margin-left: 80px;
+	margin-right: 50px;
+	font-size: 50px;
+	background-color: #F78E69;
+	padding: 30px 0;
+}
+
+footer{
+background-color: #F78E69;
+border-bottom: none;
+text-align: right;
+}
